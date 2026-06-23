@@ -1,0 +1,6 @@
+{
+  "name": "LiveTools",
+  "description": "Fast, free, and secure online utility tools directory including image processors, PDF handlers, developers helpers, math calculators, and text editors.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
