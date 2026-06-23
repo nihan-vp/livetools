@@ -76,12 +76,12 @@ export function ToolRenderer({ tool, onNavigateToTool, allTools }: ToolRendererP
         </h3>
         
         <p className="leading-relaxed">
-          Welcome to the comprehensive user manual and tactical documentation page for the premium **{name}**, hosted free on LiveTools.me. As digital workflows grow more complex with high volume demands, having robust, server-less browser converters and compilers is vital. The {name} was engineered to meet the highest standards of data sanitization, client privacy, and processing speed, making it an ideal choice for software engineers, designers, content managers, students, and digital creators worldwide.
+          Welcome to the comprehensive user manual and tactical documentation page for the premium **{name}**, hosted free on LiveTools.nihan-vp.me. As digital workflows grow more complex with high volume demands, having robust, server-less browser converters and compilers is vital. The {name} was engineered to meet the highest standards of data sanitization, client privacy, and processing speed, making it an ideal choice for software engineers, designers, content managers, students, and digital creators worldwide.
         </p>
 
         <h4 className="text-md font-bold text-slate-800 pt-2 border-b border-slate-100 pb-2">Why Choose client-side processing over cloud uploads?</h4>
         <p className="leading-relaxed">
-          Most online tool portals require uploading files, formulas, or text blocks directly to their backend databases. This introduces significant risks, including information leakage, database cache breaches, and network transmission overhead. **LiveTools.me operates on an offline-first architecture.** All computation logic, file formats translation, string sanitizations, and layout scaling occur 100% locally inside your browser's security sandbox context. 
+          Most online tool portals require uploading files, formulas, or text blocks directly to their backend databases. This introduces significant risks, including information leakage, database cache breaches, and network transmission overhead. **LiveTools.nihan-vp.me operates on an offline-first architecture.** All computation logic, file formats translation, string sanitizations, and layout scaling occur 100% locally inside your browser's security sandbox context. 
           Your media content remains locked to your system, leaving absolutely no digital footprints on external servers.
         </p>
 
@@ -224,7 +224,7 @@ export function ToolRenderer({ tool, onNavigateToTool, allTools }: ToolRendererP
               {/* Google URL structure */}
               <div className="flex items-center gap-1 text-xs text-slate-600">
                 <div className="w-4 h-4 bg-slate-100 rounded-full flex items-center justify-center text-[10px] font-bold border border-slate-200 text-blue-600">L</div>
-                <span className="truncate text-[11px] text-slate-400 font-mono tracking-tight">https://livetools.me › tools › <span className="font-bold text-slate-700">{tool.slug}</span></span>
+                <span className="truncate text-[11px] text-slate-400 font-mono tracking-tight">https://livetools.nihan-vp.me › tools › <span className="font-bold text-slate-700">{tool.slug}</span></span>
               </div>
               
               {/* Google Title */}

@@ -17,11 +17,11 @@ export function SeoTools({ slug }: SeoToolProps) {
 
   // 2. Robots direct entries
   const [allowCrawl, setAllowCrawl] = useState('Googlebot');
-  const [sitemapLink, setSitemapLink] = useState('https://livetools.me/sitemap.xml');
+  const [sitemapLink, setSitemapLink] = useState('https://livetools.nihan-vp.me/sitemap.xml');
 
   // 3. Open Graph image URL
-  const [ogUrl, setOgUrl] = useState('https://livetools.me');
-  const [ogImage, setOgImage] = useState('https://livetools.me/assets/hero.jpg');
+  const [ogUrl, setOgUrl] = useState('https://livetools.nihan-vp.me');
+  const [ogImage, setOgImage] = useState('https://livetools.nihan-vp.me/assets/hero.jpg');
 
   // 4. Schema markup inputs
   const [bizName, setBizName] = useState('Global LiveTools Corp');

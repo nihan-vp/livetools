@@ -95,10 +95,10 @@ export default function App() {
 
   // Professional Dynamic SEO Head Metadata Updates
   useEffect(() => {
-    let title = 'LiveTools.me | Free Secure Online Utility Tools Portal (500+ Client-Side Tools)';
+    let title = 'LiveTools.nihan-vp.me | Free Secure Online Utility Tools Portal (500+ Client-Side Tools)';
     let description = 'Run over 500+ secure, client-side online utility tools completely free offline. Perform image converters, PDF editors, developer syntax formatters, financial compound calculators, and word counters locally.';
     let keywords = 'free online tools, browser tools, local secure utilities, image compressor, pdf converter, gpa grade point, age calculator, emi installment calculations, crypto hash keys, json beautify format';
-    let url = 'https://livetools.me';
+    let url = 'https://livetools.nihan-vp.me';
 
     if (currentRoute.path === 'tool') {
       const activeTool = ALL_TOOLS.find((t) => t.slug === currentRoute.param);
@@ -106,12 +106,12 @@ export default function App() {
         title = activeTool.metaTitle;
         description = activeTool.metaDescription;
         keywords = activeTool.keywords.join(', ');
-        url = `https://livetools.me/tools/${activeTool.slug}`;
+        url = `https://livetools.nihan-vp.me/tools/${activeTool.slug}`;
       }
     } else if (currentRoute.path === 'legal') {
-      title = `${currentRoute.param.toUpperCase() || 'About Us'} - LiveTools.me Portal`;
-      description = `Read our official ${currentRoute.param} documentation guidelines, data protection policies, and compliance matrices on LiveTools.me.`;
-      url = `https://livetools.me/${currentRoute.param}`;
+      title = `${currentRoute.param.toUpperCase() || 'About Us'} - LiveTools.nihan-vp.me Portal`;
+      description = `Read our official ${currentRoute.param} documentation guidelines, data protection policies, and compliance matrices on LiveTools.nihan-vp.me.`;
+      url = `https://livetools.nihan-vp.me/${currentRoute.param}`;
     }
 
     // Apply values directly to the primary layout DOM head
@@ -213,10 +213,10 @@ export default function App() {
   // Download Sitemap file directly client-side
   const handleDownloadSitemap = () => {
     const sitemapHeader = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n`;
-    const staticUrls = `  <url>\n    <loc>https://livetools.me</loc>\n    <priority>1.0</priority>\n  </url>\n`;
+    const staticUrls = `  <url>\n    <loc>https://livetools.nihan-vp.me</loc>\n    <priority>1.0</priority>\n  </url>\n`;
     
     const dynamicUrls = ALL_TOOLS.map((t) => {
-      return `  <url>\n    <loc>https://livetools.me/tools/${t.slug}</loc>\n    <priority>0.8</priority>\n  </url>`;
+      return `  <url>\n    <loc>https://livetools.nihan-vp.me/tools/${t.slug}</loc>\n    <priority>0.8</priority>\n  </url>`;
     }).join('\n');
 
     const sitemapFooter = `\n</urlset>`;

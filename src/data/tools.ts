@@ -728,13 +728,13 @@ const buildEnrichmentList = (): Tool[] => {
           name: t.name,
           category: cat.name,
           shortDescription: t.shortDescription || `Quick free tool for processing ${cat.name.toLowerCase()} tasks instantly in your browser.`,
-          longDescription: t.longDescription || `The ${t.name} is a state-of-the-art utility developed specifically for ${cat.name.toLowerCase()}. LiveTools.me provides this full-stack tool directly in your browser with zero server latency. It runs client-side inside standard modern HTML5 APIs to prioritize user privacy. No file uploads to remote databases occur, keeping personal information completely safe. Discover instant capabilities matching international security parameters with LiveTools premium standards today.`,
+          longDescription: t.longDescription || `The ${t.name} is a state-of-the-art utility developed specifically for ${cat.name.toLowerCase()}. LiveTools.nihan-vp.me provides this full-stack tool directly in your browser with zero server latency. It runs client-side inside standard modern HTML5 APIs to prioritize user privacy. No file uploads to remote databases occur, keeping personal information completely safe. Discover instant capabilities matching international security parameters with LiveTools premium standards today.`,
           keywords: t.keywords || [slug, cat.id, 'livetools', t.name.toLowerCase(), 'free online ' + t.name.toLowerCase(), 'best ' + t.name.toLowerCase() + ' tool', 'private client side converter'],
-          metaTitle: `${t.name} (100% Free & Secure Online Tool) | LiveTools.me`,
-          metaDescription: `Need a safe, fast, and local ${t.name}? Run this private, high-speed offline utility directly in your browser. LiveTools.me features zero server uploads, immediate results, and complete client-side security with no login required.`,
+          metaTitle: `${t.name} (100% Free & Secure Online Tool) | LiveTools.nihan-vp.me`,
+          metaDescription: `Need a safe, fast, and local ${t.name}? Run this private, high-speed offline utility directly in your browser. LiveTools.nihan-vp.me features zero server uploads, immediate results, and complete client-side security with no login required.`,
           faq: [
             {
-              question: `Is the ${t.name} safe to use on LiveTools.me?`,
+              question: `Is the ${t.name} safe to use on LiveTools.nihan-vp.me?`,
               answer: 'Absolutely. All processing occurs locally inside your web browser. We never upload your personal entries, image files, or data structures to our server logs, respecting international offline privacy specifications.',
             },
             {
@@ -767,14 +767,14 @@ const buildEnrichmentList = (): Tool[] => {
           name: tName,
           category: cat.name,
           shortDescription: shortD,
-          longDescription: `The dynamic ${tName} assists users in handling specialized tasks involving ${cat.name.toLowerCase()} workflows. Built client-side under modular responsive canvas layouts, it functions offline over rapid memory cycles. Secure, lightweight, and fully integrated, this is part of the largest catalog of 500+ micro-tools on LiveTools.me. Ideal for engineering, professional tasks, academic assignments, or general web debugging.`,
+          longDescription: `The dynamic ${tName} assists users in handling specialized tasks involving ${cat.name.toLowerCase()} workflows. Built client-side under modular responsive canvas layouts, it functions offline over rapid memory cycles. Secure, lightweight, and fully integrated, this is part of the largest catalog of 500+ micro-tools on LiveTools.nihan-vp.me. Ideal for engineering, professional tasks, academic assignments, or general web debugging.`,
           keywords: [slug, cat.id, 'online tools', template.noun.toLowerCase(), tName.toLowerCase(), 'free online ' + tName.toLowerCase(), 'how to calculate ' + tName.toLowerCase(), 'best ' + tName.toLowerCase() + ' converter'],
-          metaTitle: `${tName} - Best Free Online ${template.noun} Utility | LiveTools.me`,
-          metaDescription: `Instantly run ${tName} online for free. LiveTools.me provides standard high-performance ${cat.name.toLowerCase()} tools that process data securely inside browser memory with no ads or speed limits.`,
+          metaTitle: `${tName} - Best Free Online ${template.noun} Utility | LiveTools.nihan-vp.me`,
+          metaDescription: `Instantly run ${tName} online for free. LiveTools.nihan-vp.me provides standard high-performance ${cat.name.toLowerCase()} tools that process data securely inside browser memory with no ads or speed limits.`,
           faq: [
             {
               question: `How does the ${tName} calculations work?`,
-              answer: `The system extracts the requested variables inside client-side input elements and parses formulas in real time on LiveTools.me. The output renders instantaneously inside printable container widgets.`,
+              answer: `The system extracts the requested variables inside client-side input elements and parses formulas in real time on LiveTools.nihan-vp.me. The output renders instantaneously inside printable container widgets.`,
             },
             {
               question: 'Am I allowed to use the output of this tool for commercial projects?',

@@ -97,7 +97,7 @@ const legalPagesData: Record<string, { title: string; desc: string; content: str
         <div class="p-6 bg-slate-50 border border-slate-200 rounded-xl space-y-3 font-mono text-xs text-slate-700">
           <div class="flex justify-between items-center border-b border-slate-200 pb-2">
             <span>Support Desk Email:</span>
-            <span class="font-bold text-slate-800">support@livetools.me</span>
+            <span class="font-bold text-slate-800">support@livetools.nihan-vp.me</span>
           </div>
           <div class="flex justify-between items-center border-b border-slate-200 pb-2">
             <span>Response Target:</span>
@@ -139,7 +139,7 @@ const legalPagesData: Record<string, { title: string; desc: string; content: str
       <div class="space-y-6">
         <h2 class="text-2xl font-bold text-slate-800 flex items-center gap-2">Terms of Service</h2>
         <p class="leading-relaxed text-slate-600">
-          By accessing livetools.me, you agree to comply with standard acceptable use guidelines. All calculations outputs and formatted markup models are output under Creative Commons CC0 (Public Domain) regulations.
+          By accessing livetools.nihan-vp.me, you agree to comply with standard acceptable use guidelines. All calculations outputs and formatted markup models are output under Creative Commons CC0 (Public Domain) regulations.
         </p>
         <h3 class="text-md font-bold text-slate-800">Limitations of Liability</h3>
         <p class="leading-relaxed text-slate-600">
@@ -176,7 +176,7 @@ function buildLegalBody(innerContent: string): string {
             </div>
             <div>
               <span class="font-extrabold text-lg text-slate-900 tracking-tight block">LiveTools</span>
-              <span class="text-[10px] text-slate-400 font-bold block uppercase">livetools.me</span>
+              <span class="text-[10px] text-slate-400 font-bold block uppercase">livetools.nihan-vp.me</span>
             </div>
           </a>
           <nav class="flex items-center gap-6 text-xs font-bold text-slate-600">
@@ -216,7 +216,7 @@ function run() {
   // 1. PRE-RENDER ALL 500+ DYNAMIC TOOLS
   console.log(`Pre-rendering ${ALL_TOOLS.length} tool pages...`);
   ALL_TOOLS.forEach((tool, index) => {
-    const toolUrl = `https://livetools.me/tools/${tool.slug}`;
+    const toolUrl = `https://livetools.nihan-vp.me/tools/${tool.slug}`;
     const toolDir = path.resolve(DIST_DIR, 'tools', tool.slug);
     
     if (!fs.existsSync(toolDir)) {
@@ -246,13 +246,13 @@ function run() {
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "https://livetools.me/"
+            "item": "https://livetools.nihan-vp.me/"
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": tool.category,
-            "item": "https://livetools.me/"
+            "item": "https://livetools.nihan-vp.me/"
           },
           {
             "@type": "ListItem",
@@ -302,7 +302,7 @@ function run() {
               </div>
               <div>
                 <span class="font-extrabold text-lg text-slate-900 tracking-tight block">LiveTools</span>
-                <span class="text-[10px] text-slate-400 font-bold block uppercase">livetools.me</span>
+                <span class="text-[10px] text-slate-400 font-bold block uppercase">livetools.nihan-vp.me</span>
               </div>
             </a>
             <nav class="flex items-center gap-6 text-xs font-bold text-slate-600">
@@ -435,7 +435,7 @@ function run() {
         "@type": "WebPage",
         "name": page.title,
         "description": page.desc,
-        "url": `https://livetools.me/${pageName}`
+        "url": `https://livetools.nihan-vp.me/${pageName}`
       }
     ];
 
@@ -445,7 +445,7 @@ function run() {
       page.title,
       page.desc,
       'legal terms, privacy policies, data protection guidelines, support contact, livetools info',
-      `https://livetools.me/${pageName}`,
+      `https://livetools.nihan-vp.me/${pageName}`,
       schemas,
       bodyHtml
     );
@@ -464,11 +464,11 @@ function run() {
       "@context": "https://schema.org",
       "@type": "WebSite",
       "name": "LiveTools",
-      "url": "https://livetools.me/",
+      "url": "https://livetools.nihan-vp.me/",
       "description": homeDesc,
       "potentialAction": {
         "@type": "SearchAction",
-        "target": "https://livetools.me/?q={search_term_string}",
+        "target": "https://livetools.nihan-vp.me/?q={search_term_string}",
         "query-input": "required name=search_term_string"
       }
     },
@@ -476,8 +476,8 @@ function run() {
       "@context": "https://schema.org",
       "@type": "Organization",
       "name": "LiveTools",
-      "url": "https://livetools.me/",
-      "logo": "https://livetools.me/assets/logo.png"
+      "url": "https://livetools.nihan-vp.me/",
+      "logo": "https://livetools.nihan-vp.me/assets/logo.png"
     },
     {
       "@context": "https://schema.org",
@@ -488,7 +488,7 @@ function run() {
       "itemListElement": ALL_TOOLS.map((t, i) => ({
         "@type": "ListItem",
         "position": i + 1,
-        "url": `https://livetools.me/tools/${t.slug}`,
+        "url": `https://livetools.nihan-vp.me/tools/${t.slug}`,
         "name": t.name
       }))
     }
@@ -504,7 +504,7 @@ function run() {
             </div>
             <div>
               <span class="font-extrabold text-lg text-slate-900 tracking-tight block">LiveTools</span>
-              <span class="text-[10px] text-slate-400 font-bold block uppercase">livetools.me</span>
+              <span class="text-[10px] text-slate-400 font-bold block uppercase">livetools.nihan-vp.me</span>
             </div>
           </a>
           <nav class="flex items-center gap-6 text-xs font-bold text-slate-600">
@@ -592,7 +592,7 @@ function run() {
     homeTitle,
     homeDesc,
     homeKeywords,
-    'https://livetools.me/',
+    'https://livetools.nihan-vp.me/',
     homeSchemas,
     homeBodyHtml
   );
@@ -604,19 +604,19 @@ function run() {
   const sitemapHeader = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n`;
   
   const staticUrls = [
-    'https://livetools.me/',
-    'https://livetools.me/about',
-    'https://livetools.me/contact',
-    'https://livetools.me/privacy',
-    'https://livetools.me/terms',
-    'https://livetools.me/disclaimer'
+    'https://livetools.nihan-vp.me/',
+    'https://livetools.nihan-vp.me/about',
+    'https://livetools.nihan-vp.me/contact',
+    'https://livetools.nihan-vp.me/privacy',
+    'https://livetools.nihan-vp.me/terms',
+    'https://livetools.nihan-vp.me/disclaimer'
   ].map((url) => {
-    const isHome = url === 'https://livetools.me/';
+    const isHome = url === 'https://livetools.nihan-vp.me/';
     return `  <url>\n    <loc>${url}</loc>\n    <lastmod>2026-06-23</lastmod>\n    <changefreq>${isHome ? 'daily' : 'monthly'}</changefreq>\n    <priority>${isHome ? '1.0' : '0.5'}</priority>\n  </url>`;
   }).join('\n');
 
   const toolUrls = ALL_TOOLS.map((t) => {
-    return `  <url>\n    <loc>https://livetools.me/tools/${t.slug}</loc>\n    <lastmod>2026-06-23</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>0.8</priority>\n  </url>`;
+    return `  <url>\n    <loc>https://livetools.nihan-vp.me/tools/${t.slug}</loc>\n    <lastmod>2026-06-23</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>0.8</priority>\n  </url>`;
   }).join('\n');
 
   const sitemapFooter = `\n</urlset>`;

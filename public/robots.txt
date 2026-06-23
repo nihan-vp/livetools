@@ -24,4 +24,4 @@ User-agent: facebookexternalhit
 Allow: /
 
 # Reference the XML index sitemap
-Sitemap: https://livetools.me/sitemap.xml
+Sitemap: https://livetools.nihan-vp.me/sitemap.xml

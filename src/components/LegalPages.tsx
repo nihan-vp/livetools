@@ -16,7 +16,7 @@ export function LegalPages({ pageType, onBackToHome }: LegalPagesProps) {
               <Info className="w-6 h-6 text-blue-600" /> About LiveTools
             </h2>
             <p className="leading-relaxed text-slate-600">
-              LiveTools.me is committed to being the internet's largest, fastest, and most secure collection of high-utility browser tools. Our direct goal is to supply essential conversion, calculation, formatting, and optimization algorithms completely client-side.
+              LiveTools.nihan-vp.me is committed to being the internet's largest, fastest, and most secure collection of high-utility browser tools. Our direct goal is to supply essential conversion, calculation, formatting, and optimization algorithms completely client-side.
             </p>
             <p className="leading-relaxed text-slate-600">
               By shifting the execution burden from dense, cloud-hosted server containers directly onto standard browser JavaScript compilers, we provide instant operations with absolute privacy limits. We do not store log variables, file uploads, passwords, or transaction structures.
@@ -47,7 +47,7 @@ export function LegalPages({ pageType, onBackToHome }: LegalPagesProps) {
             <div className="p-6 bg-slate-50 border border-slate-200 rounded-xl space-y-3 font-mono text-xs text-slate-700">
               <div className="flex justify-between items-center border-b border-slate-200 pb-2">
                 <span>Support Desk Email:</span>
-                <span className="font-bold text-slate-800">support@livetools.me</span>
+                <span className="font-bold text-slate-800">support@livetools.nihan-vp.me</span>
               </div>
               <div className="flex justify-between items-center border-b border-slate-200 pb-2">
                 <span>Response Target:</span>
@@ -91,7 +91,7 @@ export function LegalPages({ pageType, onBackToHome }: LegalPagesProps) {
               <Scale className="w-6 h-6 text-blue-600" /> Terms of Service
             </h2>
             <p className="leading-relaxed text-slate-600">
-              By accessing livetools.me, you agree to comply with standard acceptable use guidelines. All calculations outputs and formatted markup models are output under Creative Commons CC0 (Public Domain) regulations.
+              By accessing livetools.nihan-vp.me, you agree to comply with standard acceptable use guidelines. All calculations outputs and formatted markup models are output under Creative Commons CC0 (Public Domain) regulations.
             </p>
             <h3 className="text-md font-bold text-slate-800">Limitations of Liability</h3>
             <p className="leading-relaxed text-slate-600">
@@ -107,7 +107,7 @@ export function LegalPages({ pageType, onBackToHome }: LegalPagesProps) {
               <ShieldAlert className="w-6 h-6 text-amber-600" /> Legal Disclaimer
             </h2>
             <p className="leading-relaxed text-slate-600">
-              LiveTools.me is not an authorized financial advice provider, educational registrar, or certified legal counsel.
+              LiveTools.nihan-vp.me is not an authorized financial advice provider, educational registrar, or certified legal counsel.
             </p>
             <p className="leading-relaxed text-slate-600">
               Loan amortization forecasts, SIP systematic plans, and tax evaluations are designed strictly as estimates. They do not constitute actual legal invoices, binding credit limits, or formal bank records. LiveTools holds zero responsibility over savings or trading strategies implemented based on estimates.
